@@ -50,7 +50,7 @@ df['Rt'].plot()
 plt.show()
 
 
-df = mkframe('UK')
+df = mkframe('Australia')
 
 df['ninfected'] = df['infected'].diff()
 df['ninfected'].plot()
